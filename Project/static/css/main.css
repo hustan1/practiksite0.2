@@ -1,0 +1,145 @@
+ /*main_plusi*/
+ .main_plusi {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.main_plus {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_plus:nth-child(n+2) {
+    margin-top: 50px;
+}
+
+.main_plus_info {
+    width: 248px;
+    margin-top: 20px;
+}
+
+.main_plus h4 {
+    font-size: 18px;
+    line-height: 140%;
+    color: #000;
+}
+.main_plus p {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.main_plus_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #fae467, #eee8b9);
+
+}
+
+
+.main_plus_img img {
+    height: 85px;
+    margin-top: 5px;
+}
+
+
+/*clinic*/
+
+.clinic {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.clinic_left {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clinic_left a {
+   border-radius: 10px;
+   overflow: hidden;
+    display: flex;
+    object-fit: cover;
+}
+
+.clinic_left img {
+    width: 100%;
+    height: auto;
+    display: flex;
+   object-fit: cover;
+}
+.clinic_left a:first-child {
+    height: 200px;
+    width: 100%;
+}
+
+.clinic_left a:nth-child(n+2) {
+    width: 22%;
+    height: 60px;
+    margin-top: 14px;
+}
+
+.clinic_right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.clinic_right h3 {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clinic_plusi {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.clinic_plus {
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+   flex-direction: column;
+   width: 100%;
+   
+}
+
+.clinic_plus:nth-child(n+3) {
+   margin-top: 45px;
+}
+
+.clinic_plus p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%;
+    text-align: center;
+}
+
+.clinic_plus .main_plus_info {
+    width: 100%;
+    margin-top: 0;
+}
+
+.clinic_right .button_block {
+    margin-top: 50px;
+}
+
+.clinic_plus .main_plus_img {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}

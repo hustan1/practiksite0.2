@@ -9,7 +9,8 @@
     <title>{% block  title %}{% endblock %}</title>
 </head>
 <body>
-  <!-- <i class="fas fa-feather-alt"></i> -->
+  <i class="fas fa-feather-alt"></i>
+  
     <div class="container">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
           <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
@@ -19,23 +20,70 @@
     
           <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="/" class="nav-link px-2 link-dark">Home</a></li>
-            <li><a href="/about" class="nav-link px-2 link-dark">Про нас </a></li>
+            <li><a href="/about" class="nav-link px-2 btn link-dark">Про нас </a></li>
             <li><a href="/create-article" class="btn btn-warning">Создать</a></li>
           </ul>
     
           <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">Login</button>
-            <button type="button" class="btn btn-primary">Sign-up</button>
+            <button type="button" class="btn btn-warning" me-2>Login</button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
           </div>
         </header>
     </div>
         {% block body %}{% endblock %}
     </div>
     <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="main_plus_img">
+            <div class="text-center">
+            <img data-src="img/spec/plusi/1.png" alt="">
+            </div>
+        </div>
+        <div class="main_plus_info">
+          <div class="text-center">
+            <h4 class="font">Специалисты с профильным медицинским  образованием </h4>
+            <p>Профессиональные знания в области медицины позволяют безопасно и качественно проводить работы по эпиляции</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm">
+          <div class="main_plus">
+            <div class="main_plus_img">
+              <div class="text-center">
+                <img data-src="img/spec/plusi/2.png" alt="">
+                </div>
+            </div>
+            <div class="main_plus_info">
+              <div class="text-center">
+                <h4 class="font">Сотрудники с многолетним опытом работы (от 4х лет)</h4>
+                <p>С вами будут работать только опытные специалисты, которые обеспечат индивидуальный подход к каждому клиенту</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm">
+          <div class="main_plus">
+            <div class="main_plus_img">
+              <div class="text-center">
+                <img data-src="img/spec/plusi/3.png" alt="">
+              </div>
+            </div>
+            <div class="main_plus_info">
+              <div class="text-center">
+                <h4 class="font">Все процедуры проходят по одной отлаженной методике</h4>
+                <p>Мы следим за всеми процессами, чтобы избежать случаев, когда каждый врач выполняет процедуру по-разному</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
           <div class="col-12 col-md">
-            <img class="mb-2" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+            <img class="mb-2" src="icons/icon8.png" alt="" width="24" height="19">
             <small class="d-block mb-3 text-muted">© 2017–2021</small>
           </div>
           <div class="col-6 col-md">
